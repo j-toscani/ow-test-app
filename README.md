@@ -2,6 +2,8 @@
 
 This repo is a copy of the Overwolf Sample app which can be found here;: https://github.com/overwolf/sample-app. I used it to play with it and figure out whether or not to pitch an Idea to Overwolf.
 
+The App simply opens a window with two lists. The left one prints out some Global information (if a game is running, name of the game running), the right one prints out game events, as long as the game that runs is `Rocket League`.
+
 ## Sample - TS
 
 Example-ts is an example app, meant to be used as a reference for developers who are new to Overwolf.
