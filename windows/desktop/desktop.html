@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      *:after,
+      *:before {
+        box-sizing: border-box;
+      }
+
+      html {
+        box-sizing: inherit;
+        padding: 1rem;
+      }
+
+      body {
+        margin: 0;
+        width: 100%;
+      }
+
+      .output__wrapper {
+        display: flex;
+        border: 1px solid lightgray;
+        padding: 1rem;
+      }
+
+      .output__wrapper > ul {
+        border: 1px solid gray;
+        padding: 1rem;
+        flex-basis: 50%;
+        min-height: 300px;
+        overflow: auto;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>This is a sample app</h1>
+      <p>
+        It checks which game was started, if the game was changed and if the
+        last game that run was stopped. The newest edition is Rocket League
+        events
+      </p>
+      <div class="output__wrapper">
+        <ul id="output-info">
+          <h2>Game Info Output</h2>
+        </ul>
+        <ul id="output-events">
+          <h2>Game Events Output</h2>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
